@@ -96,9 +96,6 @@ const Footer = ({ data }) => {
             <p>
               © {currentYear} {data.name}. All rights reserved.
             </p>
-            <p className="flex items-center mt-2 sm:mt-0">
-              Made with <Heart className="mx-1 text-red-500" size={16} fill="currentColor" /> using React & FastAPI
-            </p>
           </div>
         </div>
       </div>
