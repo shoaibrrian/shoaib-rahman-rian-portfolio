@@ -92,7 +92,7 @@ const Footer = ({ data }) => {
 
         {/* Bottom Section */}
         <div className="py-8 border-t border-gray-800">
-          <div className="flex flex-col sm:flex-row items-center justify-between text-gray-400 text-sm">
+          <div className="flex flex-col sm:flex-row items-center justify-center text-gray-400 text-sm">
             <p>
               © {currentYear} {data.name}. All rights reserved.
             </p>
